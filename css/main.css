@@ -1,0 +1,50 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.hidden {
+  display: none;
+}
+
+.column1 {
+  display: block;
+  background-color: pink;
+  height: 350px;
+  width: 100%;
+}
+
+.column2 {
+  background-color: red;
+  display: block;
+  height: 350px;
+  width: 100%;
+}
+
+@media screen and (min-width: 641px) {
+  .column1 {
+    display: inline-block;
+    background-color: blue;
+    width: 24%;
+  }
+
+  .column2 {
+    display: inline-block;
+    background-color: purple;
+    width: 24%;
+  }
+
+  .column3 {
+    display: inline-block;
+    background-color: grey;
+    height: 350px;
+    width: 24%;
+  }
+  .column4 {
+    display: inline-block;
+    background-color: brown;
+    height: 350px;
+    width: 24%;
+  }
+}
